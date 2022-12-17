@@ -1,7 +1,5 @@
 import  express  from 'express'; 
-const bodyParser = require('body-parser');
-const request = require('request');
-const https = require('https');
+import bodyParser from 'body-parser';
 
 const app = express();
 app.use(bodyParser.urlencoded({extended:true}));
