@@ -30,3 +30,16 @@ body{
 .congrat button:hover{
     opacity: 0.8;
 }
+
+@media screen and (max-width: 442px ) {
+    .congrat h1{
+        font-size: 1.2rem;
+    }
+
+    .congrat p{
+        font-size: 1rem;
+        max-width: 400px;
+        text-align: center;
+        line-height: 1rem;
+    }
+}
