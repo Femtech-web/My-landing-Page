@@ -17,12 +17,12 @@ cancel.addEventListener('click', () => {
 
 const page = document.querySelector('#landing-page');
 const loadIcon = document.querySelector('.load-icon');
-// window.addEventListener('load', () => {
-// 	setTimeout(() => {
-// 		loadIcon.style.display = 'none'
-// 		page.style.visibility = 'visible'
-// 	}, 3000)
-// });
+window.addEventListener('load', () => {
+	setTimeout(() => {
+		loadIcon.style.display = 'none'
+		page.style.visibility = 'visible'
+	}, 3000)
+});
 
 const btn = document.querySelector('.button');
 btn.addEventListener('click', (e) => {
