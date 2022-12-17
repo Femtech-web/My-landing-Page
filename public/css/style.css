@@ -55,7 +55,7 @@ body{
     background-image: linear-gradient(to top left, black, rgb(0,0,35));
     color: white;
     overflow: auto;
-    visibility: ;
+    visibility: hidden;
     transition: visibility 4s ease-in-out;
 }
 
